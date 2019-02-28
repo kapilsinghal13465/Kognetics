@@ -1,0 +1,75 @@
+.logo {
+    height: 48px;
+}
+
+
+.toolbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    flex: 0 0 auto;
+  }
+
+  /* swiper{
+    height: 300px;
+    width: 400px;
+}
+
+.swiper-wrapper {
+    box-sizing: border-box;
+} */
+
+::ng-deep .mat-tab-body-content {
+  overflow: hidden !important;
+}
+
+.mat-drawer {
+  overflow-y: scroll
+}
+
+.mat-tab-header {
+  z-index: 9999;
+  position: sticky !important;
+  top: 0px;
+  background-color: white !important;
+}
+
+swiper {
+  width: auto;
+  height: auto;
+  background: lightgray;
+}
+.mat-toolbar.mat-primary {
+    background: #111010;
+    color: #111010;
+  }
+
+  mat-card {
+    margin-top: 85px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+
+  .second-content {
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border: 1px solid white
+  }
+
+  .body {
+    background: #111010;
+    color: ivory;
+  }
+
+  mat-chip {
+    font-size: 10px;
+    /* padding: 0 4px; */
+    height: 1px;
+  }
+
+  .mat-tab-group {
+    position: sticky;
+    position: -webkit-sticky;
+  }
